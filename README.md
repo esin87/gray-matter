@@ -1,15 +1,15 @@
-## Gray Matter
+# Gray Matter
 
-A tool to provide mid-word graying to input text
+A tool to provide mid-word graying to input text.
 
-### Technologies Used
+## Technologies Used
 
 - HTML
 - CSS
 - JavaScript
 - Git/GitHub
 
-### Contributing to <project_name>
+## Contributing to <project_name>
 
 To contribute to Gray Matter, follow these steps:
 
