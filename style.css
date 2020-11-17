@@ -1,0 +1,34 @@
+body {
+	width: 80vw;
+	margin: 0 auto;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+}
+
+.results {
+	display: none;
+}
+
+.thirty {
+	color: rgba(0, 0, 0, 0.3);
+}
+
+.forty {
+	color: rgba(0, 0, 0, 0.4);
+}
+
+.fifty {
+	color: rgba(0, 0, 0, 0.5);
+}
+
+.grayness-label {
+	display: inline-block;
+}
+
+textarea {
+	resize: vertical;
+}

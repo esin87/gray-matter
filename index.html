@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16x16.png">
+  <link rel="manifest" href="assets/site.webmanifest">
+  <title>Gray Matter</title>
+</head>
+<body>
+  <h1>Gray Matter</h1>
+  <form class="text-input-form">
+    <div>
+      <p class='grayness-label'>Select grayness:</p>
+    <input type="radio" id="thirty" name="grayness" value="thirty" checked>
+    <label for="grayness1">30%</label>
+    <input type="radio" id="forty" name="grayness" value="forty">
+    <label for="grayness2">40%</label>
+    <input type="radio" id="fifty" name="grayness" value="fifty">
+    <label for="grayness3">50%</label>
+  </div>
+    <label for="textInput">Paste text below, or press Submit to see default text:</label>
+    <textarea id="textInput" name="textInput" rows="10" cols="50" autofocus></textarea>
+    <input type="submit" value="Submit">
+  </form>
+  <section class="results">
+    <h3>Results</h3>
+    <button class="select-text-button">Click to select all text</button>
+    <p class="result-paragraph" id="result-paragraph"></p>
+  </section>
+  <script src="script.js"></script>
+</body>
+</html>
