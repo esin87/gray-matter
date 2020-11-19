@@ -14,15 +14,15 @@ form {
 }
 
 .thirty {
-	color: rgba(0, 0, 0, 0.3);
+	color: rgb(180, 180, 180);
 }
 
 .forty {
-	color: rgba(0, 0, 0, 0.4);
+	color: rgb(150, 150, 150);
 }
 
 .fifty {
-	color: rgba(0, 0, 0, 0.5);
+	color: rgb(120, 120, 120);
 }
 
 .grayness-label {

@@ -13,7 +13,7 @@ const displayResults = (results) => {
 const grayOutText = (arr) => {
 	const newArr = arr.map((str) => {
 		//check if str includes punctuation
-		const punctuation = str.match(/[.,\/#!$%\^&\*;:{}=\-_`~()]/g);
+		const punctuation = str.match(/[.,\/#!$%\^&\*;:{}=\_`~()]/g);
 		let newStr;
 		if (punctuation) {
 			newStr = str
